@@ -1,0 +1,19 @@
+{
+  "include": ["src"],
+  "exclude": ["doc"],
+  "typingsPath": "/home/dgxadmin/typings",
+  "reportTypeshedErrors": true,
+  "reportMissingImports": false,
+  "pythonVersion": "3.6",
+  "pythonPlatform": "Linux",
+  "executionEnvironments": [
+    {
+      "root": "/home/dgxadmin/anaconda3/envs/RetinaYS/lib",
+      "pythonVersion": "3.0",
+      "extraPaths": ["src/backend"]
+    },
+    {
+      "root": "src"
+    }
+  ]
+}
